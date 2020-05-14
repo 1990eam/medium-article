@@ -1,0 +1,87 @@
+/* BANNER */
+
+.banner {
+
+    background-image: url(https://source.unsplash.com/random/1000x500);
+    background-size: cover;
+    padding: 120px
+
+}
+
+.banner h1 {
+
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 48px;
+}
+
+.banner h2 {
+
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 32px;
+}
+
+.banner {
+
+  margin: 0px;
+
+
+}
+
+/* ARTICLE */
+
+body {
+
+  color: #494949;
+  margin: 0px;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.container h2 {
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+a {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 32px;
+
+}
+
+a:hover {
+
+    background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+
+}
+
+/* Media queries */
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
